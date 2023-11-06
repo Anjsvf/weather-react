@@ -1,0 +1,99 @@
+body::before {
+  content: url("./assets/img/fundo1.png") url("./assets/img/fundo2.png")
+    url("./assets/img/fundo3.png") url("./assets/img/fundo4.png");
+  display: none;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image: url("./assets/img/fundo1.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100hv;
+   animation: mudarFundo  300s linear infinite;
+  }
+
+  @keyframes mudarFundo {
+    0% {
+      background-image: url("./assets/img/fundo1.png");
+    }
+  
+    12.499% {
+      background-image: url("./assets/img/fundo2.png");
+    }
+  
+    24.999% {
+      background-image: url("./assets/img/fundo3.png");
+    }
+  
+    37.499% {
+      background-image: url("./assets/img/fundo4.png");
+    }
+  }
+  .weather-container{
+    color: rgb(245, 255, 255);
+    max-width: 400px;
+    background-image:url("./assets/img/fundo-principal.png") ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: rgb(36, 31, 31);
+    padding: 30px;
+    margin: 40px;
+  }
+
+  h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  button{
+    cursor: pointer;
+    background-color: rgb(19, 108, 209);
+    color: azure;
+  }
+
+  button:hover{
+    background-color: rgb(8, 8, 168);
+  }
+  #city{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px forestgreen;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #search{
+    background-color: rgb(170, 170, 210);
+    color: bisque;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:18px ;
+    transition: background-colorv 0.3s ease;
+    outline: none;
+
+  }
+  #search:houver{
+    background-color: blue;
+  }
+
+  weather-info {
+    font-size: 18px;
+  }
+  #weather-icon {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  .wi {
+    font-size: inherit;
+  }
+  
