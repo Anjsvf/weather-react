@@ -1,4 +1,10 @@
-# React + Vite
+# Prvisãõ do tempo feito em React js
+
+![moodpress](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)]() 
+previsão do tempo projeto é uma aplicação React que permite aos usuarios ver a previsão do tempo em diversas cidades do mundo.
+essa aplicação ultiliza uma api openweathermap com descriçao do clima e com icons responsivos,
+ultiliza também pré carregamentos de imagens, que mudam.
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
